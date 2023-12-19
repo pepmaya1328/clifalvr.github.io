@@ -11,6 +11,7 @@ body {
 }
 
 /* navigation bar */
+
 nav img {
 	width: 3.2rem;
 }
@@ -22,7 +23,6 @@ nav div span {
 	font-weight: 900;
 }
 
-
  /* main content */
 
 main {
@@ -31,11 +31,9 @@ main {
 }
 
 .landing-page {
-	/* position: relative; */
 	background-image: url(./images/landingimg.jpg);
 	background-size: 100% 100%;
     background-repeat: no-repeat;
-	/* width: 100em; */
 	height: 100vh;
 }
 
@@ -68,7 +66,7 @@ main {
 /* section 1 */
 
 .featured {
-	margin-top: -5%;
+	margin-top: -4%;
     padding: 10%;
 }
 
@@ -79,8 +77,27 @@ main {
 .heading h2 {
 	font-size: 40px;
 	text-transform: uppercase;
-	text-decoration: underline;
-	background-color: #d2dada;
+	border-bottom: 1px solid #373636;
+}
+
+.featured1 .text1 {
+	padding-left: 20px;
+}
+
+.featured2 .text2 {
+	padding-right: 20px;
+}
+
+.featured3 .text3 {
+	padding-left: 20px;
+}
+
+.featured4 .text4 {
+	padding-right: 20px;
+}
+
+.featured5 .text5 {
+	padding-left: 20px;
 }
 
 .text1 p {
@@ -108,22 +125,77 @@ main {
 	height: 90%;
 }
 
+.places img:hover {
+	transform: scale(1.1);
+}
+
 /* section 2 */
 
-.blog {
-	margin-top: -18%;
+.food-content {
+	margin-top: -15%;
     padding: 10%;
 }
 
+.food-content .header2 {
+	padding-bottom: 50px;
+}
+
+.header2 h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #373636;
+}
+
+.foodies {
+	width: 100%;
+	height: 100%;
+}
+
+.foodies img:hover {
+	-webkit-filter: brightness(70%);
+}
+
+/* section 3 */
+
+.festivals {
+	margin-top: -14%;
+    padding: 10%;
+}
+
+.festivals .header3 {
+	padding-bottom: 50px;
+}
+
+.header3 h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #373636;
+}
+
+.bg-image img:hover {
+	-webkit-filter: brightness(70%);
+}
+
+/* section 4 */
+
+.blog {
+	margin-top: -16%;
+    padding: 12%;
+}
+
 .blog-header {
-	padding-bottom: 50px
+	padding-bottom: 50px;
 }
 
 .blog h2 {
 	font-size: 40px;
 	text-transform: uppercase;
-	text-decoration: underline;
-	background-color: #d2dada;
+	border-bottom: 1px solid #373636;
+}
+
+.blog-content {
+	margin-top: -1.5%;
+    padding: 0%;
 }
 
 .blog-content img {
@@ -131,8 +203,16 @@ main {
 	height: 12.5rem;
 }
 
-.blog-content p{
+.blog-content img:hover {
+	transform: scale(1.1);
+}
+
+.blog-content p {
 	text-align: justify;
+}
+
+.blog1 h3, .blog2 h3, .blog3 h3 {
+	padding-top: 1rem;
 }
 
 /* footer */
@@ -140,7 +220,7 @@ main {
 .footer-section {
 	background: #1c1a1a;
 	position: relative;
-	margin-top: -5rem;
+	margin-top: -4rem;
 }
 
 .footer-cta {
@@ -176,21 +256,11 @@ main {
 	z-index: 2;
 }
 
-/* .footer-pattern img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 330px;
-	background-size: cover;
-	background-position: 100% 100%;
-} */
-
 .footer-logo {
 	margin-bottom: 30px;
 }
 
 .footer-logo img {
-    /* max-width: 12.5rem; */
 	width: 3.2rem;
 	padding-bottom: 1.2rem;
 }
@@ -257,15 +327,9 @@ main {
 	position: relative;
 }
 
-/* .footer-widget-heading h3::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: -15px;
-	height: 2px;
-	width: 50px;
-	background: #ff5e14;
-} */
+.footer-social-icon i:hover {
+	transform: scale(1.1);
+}
 
 .link-content {
     margin: 0px;
@@ -317,6 +381,10 @@ main {
 	font-size: 22px;
 }
 
+.subscribe-form button:hover {
+	background: #c95119;
+}
+
   
 .copyright-area {
 	background: #202020;
@@ -328,21 +396,3 @@ main {
 	font-size: 14px;
 	color: #878787;
 }
-
-/* .copyright-text p a {
-	color: #ff5e14;
-} */
-
-/* .footer-menu li {
-	display: inline-block;
-	margin-left: 20px;
-} */
-
-/* .footer-menu li:hover a {
-	color: #ff5e14;
-} */
-
-/* .footer-menu li a {
-	font-size: 14px;
-	color: #878787;
-} */
